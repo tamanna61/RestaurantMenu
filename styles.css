@@ -1,0 +1,526 @@
+<<<<<<< HEAD
+body {
+    font-size:15px;
+    color:#fff;
+    background-color:#61122f;
+    font-family:'oxygen',sans-serif;
+}
+#header-nav{
+    background-color:#f6b319;
+    border-radius:2px;
+    border : 0;
+}
+#logo-img{
+    background-image:url("https://hillsboroughcheese.files.wordpress.com/2016/03/laplace_logowhite.png");
+    background-position:left top;
+    width:280px;
+    height:280px  ;
+    margin:0px 5px 5px 0px ;
+}
+.navbar-brand {
+    padding-top = 25px;
+}
+.navbar-brand h1{
+    font-family: 'Lora',serif;
+    color:#557c3e;
+    text-shadow: 1px 1px 1px #222;
+    margin-top:0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-brand p {
+    color:black;
+    text-transform:uppercase;
+    font-size:0.7em;
+    margin-top:15px;
+}
+.navbar-brand p span{
+    vertical-align:middle;
+}
+#nav-list{
+    margin-top:10px;
+}
+#nav-list a{
+    color: #951c49;
+    text-align:center;
+}
+#nav-list a:hover{
+    background: #E7E7E7;
+}
+#nav-list a span{
+    font-size: 1.8em;
+}
+#phone{
+    margin-top: 5px;
+}
+#phone a {
+    text-align: right;
+    padding-bottom:0;
+}
+#phone div{
+    color: #557c3e;
+    text-align:right;
+    padding-right: 5px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+    clear:both;
+    margin-top:-30px;
+}
+.navbar-toggle{
+     position:right;
+    float:right;
+    padding:10px 10px;
+    margin-top:20px;
+    margin-right:-400px;
+    margin-bottom:4px;
+    background-color:white;
+    background-image:none;
+    border:1px solid transparent;
+    border-radius:4px;
+}
+.navbar-toggle .icon-bar{
+    display:block;
+    width:22px;
+    height:2px;
+    border-radius:1px;
+}
+.navbar-toggle .icon-bar + .icon-bar{
+    margin-top:4px;
+}
+.container .jumbotron{
+    box-shadow:0 0 50px #3f0C1F;
+    border:2px solid #3f0C1F;
+    background-position: center;
+    overflow:hidden;
+}
+.panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: black;
+    border-top: 0;
+}
+#map-tile,#specials-tile,#menu-tile{
+    height:250px;
+    width:100%;
+    margin-bottom:15px;
+    position: relative;
+    border:2px solid:#3f0C1F;
+    overflow:hidden;
+}
+#map-tile:hover,#specials-tile:hover,#menu-tile:hover{
+    box-shadow:0 1px 5px 1px #cccccc;
+}
+#menu-tile{
+    background-image:url("https://images.pexels.com/photos/8500/food-dinner-pasta-spaghetti-8500.jpg?h=350&auto=compress&cs=tinysrgb");
+    background-position: center;
+}
+#specials-tile{
+    background-image:url("https://images.pexels.com/photos/263041/pexels-photo-263041.jpeg?h=350&auto=compress&cs=tinysrgb");
+    background-position: center;
+}
+#map-tile {
+    background-image:url("https://www.google.co.in/maps/search/rohini+sec-16,apsara+restaurant+,+delhi/@28.7404051,77.1165565,17z/data=!3m1!4b1?hl=en");
+    background-position: center;
+}
+#map-tile span,#specials-tile span,#menu-tile span{
+    position:absolute;
+    bottom:0;
+    right:0;width:100%;text-align:left;
+    font-size:1.6; text-transform:uppercase;background-color:#000;
+    color:white;
+    opacity:0.6;
+}
+@media(min-width:1200px){
+    .container .jumbotron{
+        height:800px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    #logo-img{
+        background-image:url("https://hillsboroughcheese.files.wordpress.com/2016/03/laplace_logowhite.png");
+        background-position: left top;
+        width:150px   ;
+        height:150px    ;
+        margin:0px 15px 10px 0px     ;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .navbar-toggle {
+        display: block;
+    }
+}
+@media(min-width:767px){
+   .navbar-brand{
+       padding-top:10px;
+       height:80px;
+   }
+    .navbar-brand h1{
+        padding-top:10px;
+        font-size:5vw;
+    }
+    .navbar-brand p{
+        text-transform:uppercase;
+        font-size:.6em;
+        margin-top:12px;
+    }
+    .navbar-brand p img{
+        height:20px;
+    }
+}
+@media(max-width:479px)
+{
+    .navber-brand h1{
+        padding-top: 5px;
+        font-size:6vw;
+    }
+    #menu-tile,#specials-tile{
+        width:280px;
+        margin:0 auto 15px;
+    }
+    .menu-item-photo{
+        margin-right:auto;
+    }
+    .col-xxs-12{
+        position:relative;
+        min-height:1px;
+        padding-right:15px;
+        padding-left:15px;
+        float:left;width:100%;
+    }
+}
+    .category-tile{
+        position:relative;
+        border:2px solid #fff;
+        height:250px;
+        width:250px;
+        overflow:hidden;
+        margin:0 auto 20px ;
+}
+    .category-tile span{
+        position:absolute;
+        bottom:0;
+        right: 0;
+        width:100%;
+        text-align:center;
+        font-size:1.2em;
+        background-color:black;
+        color:#fff;
+        text-transform:uppercase;
+        opacity: .8;
+    }
+    .category-title:hover{
+        box-shadow: 0 1px 5px 1px #cccccc;
+    }
+    #menu-catgories-title+ div{
+        margin-bottom:50px;
+    }
+    /*single category page*/
+    .container .menu-item-tile{
+        margin-bottom:25px;
+    }
+    .menu-item-tile hr{
+        width:100%;
+    }
+.menu-item-tile .menu-item-price{
+    font-size:1em;margin-top:10px;margin-bottom:10px;
+}
+.menu-item-tile .menu-item-price span{
+    font-size:.7em;
+}
+menu-item-photo{
+    position:relative;
+    border:2px solid black;overflow:hidden;padding:0;
+    margin-right:-10px;margin-left:auto;margin-bottom:20px;
+}
+.menu-item-photo div{
+    position:absolute;
+    color:#fff;background-color:black;bottom:20px;right:0px;
+    width:80px;text-align:center;
+}
+.menu-item-description{
+    padding-right:30px;
+}
+h3.menu-item-description{
+    margin:0 0 10px;
+}
+.menu-item-details{
+    font-size:.9em; font-style:italic;
+}
+.navbar-nav{
+    margin: 7.5px -15px;
+}
+.navbar-nav > l1> a{
+    padding-top:10px;
+    padding-bottom:10px;
+    line-height:20px;
+=======
+body {
+    font-size:15px;
+    color:#fff;
+    background-color:#61122f;
+    font-family:'oxygen',sans-serif;
+}
+#header-nav{
+    background-color:#f6b319;
+    border-radius:2px;
+    border : 0;
+}
+#logo-img{
+    background-image:url("https://hillsboroughcheese.files.wordpress.com/2016/03/laplace_logowhite.png");
+    background-position:left top;
+    width:280px;
+    height:280px  ;
+    margin:0px 5px 5px 0px ;
+}
+.navbar-brand {
+    padding-top = 25px;
+}
+.navbar-brand h1{
+    font-family: 'Lora',serif;
+    color:#557c3e;
+    text-shadow: 1px 1px 1px #222;
+    margin-top:0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-brand p {
+    color:black;
+    text-transform:uppercase;
+    font-size:0.7em;
+    margin-top:15px;
+}
+.navbar-brand p span{
+    vertical-align:middle;
+}
+#nav-list{
+    margin-top:10px;
+}
+#nav-list a{
+    color: #951c49;
+    text-align:center;
+}
+#nav-list a:hover{
+    background: #E7E7E7;
+}
+#nav-list a span{
+    font-size: 1.8em;
+}
+#phone{
+    margin-top: 5px;
+}
+#phone a {
+    text-align: right;
+    padding-bottom:0;
+}
+#phone div{
+    color: #557c3e;
+    text-align:right;
+    padding-right: 5px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle{
+    clear:both;
+    margin-top:-30px;
+}
+.navbar-toggle{
+     position:right;
+    float:right;
+    padding:10px 10px;
+    margin-top:20px;
+    margin-right:-400px;
+    margin-bottom:4px;
+    background-color:white;
+    background-image:none;
+    border:1px solid transparent;
+    border-radius:4px;
+}
+.navbar-toggle .icon-bar{
+    display:block;
+    width:22px;
+    height:2px;
+    border-radius:1px;
+}
+.navbar-toggle .icon-bar + .icon-bar{
+    margin-top:4px;
+}
+.container .jumbotron{
+    box-shadow:0 0 50px #3f0C1F;
+    border:2px solid #3f0C1F;
+    background-position: center;
+    overflow:hidden;
+}
+.panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: black;
+    border-top: 0;
+}
+#map-tile,#specials-tile,#menu-tile{
+    height:250px;
+    width:100%;
+    margin-bottom:15px;
+    position: relative;
+    border:2px solid:#3f0C1F;
+    overflow:hidden;
+}
+#map-tile:hover,#specials-tile:hover,#menu-tile:hover{
+    box-shadow:0 1px 5px 1px #cccccc;
+}
+#menu-tile{
+    background-image:url("https://images.pexels.com/photos/8500/food-dinner-pasta-spaghetti-8500.jpg?h=350&auto=compress&cs=tinysrgb");
+    background-position: center;
+}
+#specials-tile{
+    background-image:url("https://images.pexels.com/photos/263041/pexels-photo-263041.jpeg?h=350&auto=compress&cs=tinysrgb");
+    background-position: center;
+}
+#map-tile {
+    background-image:url("https://www.google.co.in/maps/search/rohini+sec-16,apsara+restaurant+,+delhi/@28.7404051,77.1165565,17z/data=!3m1!4b1?hl=en");
+    background-position: center;
+}
+#map-tile span,#specials-tile span,#menu-tile span{
+    position:absolute;
+    bottom:0;
+    right:0;width:100%;text-align:left;
+    font-size:1.6; text-transform:uppercase;background-color:#000;
+    color:white;
+    opacity:0.6;
+}
+@media(min-width:1200px){
+    .container .jumbotron{
+        height:800px;
+    }
+}
+@media(min-width:992px) and (max-width:1199px){
+    #logo-img{
+        background-image:url("https://hillsboroughcheese.files.wordpress.com/2016/03/laplace_logowhite.png");
+        background-position: left top;
+        width:150px   ;
+        height:150px    ;
+        margin:0px 15px 10px 0px     ;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .navbar-toggle {
+        display: block;
+    }
+}
+@media(min-width:767px){
+   .navbar-brand{
+       padding-top:10px;
+       height:80px;
+   }
+    .navbar-brand h1{
+        padding-top:10px;
+        font-size:5vw;
+    }
+    .navbar-brand p{
+        text-transform:uppercase;
+        font-size:.6em;
+        margin-top:12px;
+    }
+    .navbar-brand p img{
+        height:20px;
+    }
+}
+@media(max-width:479px)
+{
+    .navber-brand h1{
+        padding-top: 5px;
+        font-size:6vw;
+    }
+    #menu-tile,#specials-tile{
+        width:280px;
+        margin:0 auto 15px;
+    }
+    .menu-item-photo{
+        margin-right:auto;
+    }
+    .col-xxs-12{
+        position:relative;
+        min-height:1px;
+        padding-right:15px;
+        padding-left:15px;
+        float:left;width:100%;
+    }
+}
+    .category-tile{
+        position:relative;
+        border:2px solid #fff;
+        height:250px;
+        width:250px;
+        overflow:hidden;
+        margin:0 auto 20px ;
+}
+    .category-tile span{
+        position:absolute;
+        bottom:0;
+        right: 0;
+        width:100%;
+        text-align:center;
+        font-size:1.2em;
+        background-color:black;
+        color:#fff;
+        text-transform:uppercase;
+        opacity: .8;
+    }
+    .category-title:hover{
+        box-shadow: 0 1px 5px 1px #cccccc;
+    }
+    #menu-catgories-title+ div{
+        margin-bottom:50px;
+    }
+    /*single category page*/
+    .container .menu-item-tile{
+        margin-bottom:25px;
+    }
+    .menu-item-tile hr{
+        width:100%;
+    }
+.menu-item-tile .menu-item-price{
+    font-size:1em;margin-top:10px;margin-bottom:10px;
+}
+.menu-item-tile .menu-item-price span{
+    font-size:.7em;
+}
+menu-item-photo{
+    position:relative;
+    border:2px solid black;overflow:hidden;padding:0;
+    margin-right:-10px;margin-left:auto;margin-bottom:20px;
+}
+.menu-item-photo div{
+    position:absolute;
+    color:#fff;background-color:black;bottom:20px;right:0px;
+    width:80px;text-align:center;
+}
+.menu-item-description{
+    padding-right:30px;
+}
+h3.menu-item-description{
+    margin:0 0 10px;
+}
+.menu-item-details{
+    font-size:.9em; font-style:italic;
+}
+.navbar-nav{
+    margin: 7.5px -15px;
+}
+.navbar-nav > l1> a{
+    padding-top:10px;
+    padding-bottom:10px;
+    line-height:20px;
+>>>>>>> e617b5b7525e6e5eaa69e14e457926cf97c5b6cf
+}

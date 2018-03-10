@@ -1,0 +1,1 @@
+A Static website for a Restaurant.
